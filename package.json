@@ -19,7 +19,7 @@
     "typescript": "^4.9.5",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://github.com/Meer786777/Ibrahimbrohi.git",
+  "homepage": "https://meer786777.github.io/Ibrahimbrohi",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
