@@ -1283,5 +1283,8 @@ ul li {
         line-height: 100.785%;
         /* 16.126px */
     }
-    
+    .nn{
+
+        font-size: 5px;
+    }
 }
