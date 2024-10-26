@@ -53,7 +53,18 @@ const WeatherMap: React.FC = () => {
                     </div>
                 </div>
             ) : (
-                <p>Loading weather data...</p>
+                <div className='MapParent'>
+                    <div className='Mapbottom'>
+                        <div className='mapdiv'>
+                            <img src={Mapicon} className="weather" alt="Weather icon" />
+                            <div>
+                                <h1 className='wh1'>Karachi</h1>
+                                <span className='wspan1'>{getCurrentDate()}</span> {/* Display dynamic date */}
+                            </div>
+                        </div>
+                        <p className='wp1'>29°</p> {/* Display the temperature */}
+                    </div>
+                </div>
             )}
         </div>
     );
