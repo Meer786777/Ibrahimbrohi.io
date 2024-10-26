@@ -200,10 +200,10 @@
 .homeimgv {
   transition: opacity 3s ease;
   /* Smooth transition for text */
-  width: 100px;
-  height: 100px;
+  width: 50px;
+  height: 50px;
   position: absolute;
-  top: -30px;
+  top: -10px;
   animation: rotate 5s linear infinite;
   /* Apply rotate animation */
 }
