@@ -140,6 +140,16 @@
     position: relative;
     padding: -19px;
   }
+  .homeimgv {
+    transition: opacity 3s ease;
+    /* Smooth transition for text */
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: -50px;
+    animation: rotate 5s linear infinite;
+    /* Apply rotate animation */
+  }
   .name {
     width: 100%;
     color: #FFF;
@@ -186,5 +196,15 @@
   transition: opacity 3s ease;
   /* Smooth transition for text */
   cursor: pointer;
+}
+.homeimgv {
+  transition: opacity 3s ease;
+  /* Smooth transition for text */
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: -30px;
+  animation: rotate 5s linear infinite;
+  /* Apply rotate animation */
 }
 }
