@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Ibrahimbrohi.io/static/css/main.a017ae52.css",
-    "main.js": "/Ibrahimbrohi.io/static/js/main.175a2525.js",
+    "main.css": "/Ibrahimbrohi.io/static/css/main.3a4f5e50.css",
+    "main.js": "/Ibrahimbrohi.io/static/js/main.cb2c5adc.js",
     "static/js/453.1b313fc3.chunk.js": "/Ibrahimbrohi.io/static/js/453.1b313fc3.chunk.js",
     "static/media/m2.png": "/Ibrahimbrohi.io/static/media/m2.ca7736adadd98f175746.png",
     "static/media/video2.mp4": "/Ibrahimbrohi.io/static/media/video2.13f7107b1efd8cc5bf21.mp4",
@@ -10,12 +10,12 @@
     "static/media/m1.jpg": "/Ibrahimbrohi.io/static/media/m1.75568ac4b6e4972f46cc.jpg",
     "static/media/download.webp": "/Ibrahimbrohi.io/static/media/download.3944c09ec3af567c2bab.webp",
     "index.html": "/Ibrahimbrohi.io/index.html",
-    "main.a017ae52.css.map": "/Ibrahimbrohi.io/static/css/main.a017ae52.css.map",
-    "main.175a2525.js.map": "/Ibrahimbrohi.io/static/js/main.175a2525.js.map",
+    "main.3a4f5e50.css.map": "/Ibrahimbrohi.io/static/css/main.3a4f5e50.css.map",
+    "main.cb2c5adc.js.map": "/Ibrahimbrohi.io/static/js/main.cb2c5adc.js.map",
     "453.1b313fc3.chunk.js.map": "/Ibrahimbrohi.io/static/js/453.1b313fc3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a017ae52.css",
-    "static/js/main.175a2525.js"
+    "static/css/main.3a4f5e50.css",
+    "static/js/main.cb2c5adc.js"
   ]
 }
