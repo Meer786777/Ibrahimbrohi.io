@@ -22,7 +22,7 @@ function Video() {
         }
     };
 
-    // Use effect to play the video automatically when the component mounts
+    // Use effect to play the  vvideo automatically when the component mounts
     useEffect(() => {
         document.addEventListener('visibilitychange', handleVisibilityChange);
 
