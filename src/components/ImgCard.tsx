@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './css/body.css';
-import Img1 from '../images/blockbuster.jpg';
-import Img2 from '../images/m2.jpeg';
+import Img1 from '../images/m1.jpg';
+import Img2 from '../images/m2.png';
 import Img3 from '../images/m3.jpg';
 
 function ImgCard() {

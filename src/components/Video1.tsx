@@ -1,6 +1,6 @@
 import React, { useRef, useState, useEffect } from 'react';
 import './css/body.css';
-import Video1 from '../images/video1.mp4';
+import Video1 from '../images/video2.mp4';
 import V1 from '../images/icons8-no-audio-50.png';  // Mute icon
 import V2 from '../images/icons8-speaker-50.png';   // Unmute icon
 
