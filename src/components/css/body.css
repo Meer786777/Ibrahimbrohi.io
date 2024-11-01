@@ -293,13 +293,13 @@ ul li {
     display: flex;
     justify-content: center;
     align-items: center;
-    opacity: 0;
+    /* opacity: 0; */
     /* Initially hidden */
-    transform: scale(0.5);
+    /* transform: scale(0.5); */
     /* Start smaller */
-    animation: appear 0.5s ease-out forwards;
+    /* animation: appear 0.5s ease-out forwards; */
     /* Apply animation */
-    animation-delay: 0.5s;
+    /* animation-delay: 0.5s; */
     /* Delay before starting the animation */
 }
 
@@ -523,13 +523,13 @@ ul li {
         display: flex;
         justify-content: center;
         align-items: center;
-        opacity: 0;
+        /* opacity: 0; */
         /* Initially hidden */
-        transform: scale(0.5);
+        /* transform: scale(0.5); */
         /* Start smaller */
-        animation: appear 0.5s ease-out forwards;
+        /* animation: appear 0.5s ease-out forwards; */
         /* Apply animation */
-        animation-delay: 0.5s;
+        /* animation-delay: 0.5s; */
         /* Delay before starting the animation */
     }
     .img-parent {
@@ -736,13 +736,13 @@ ul li {
         display: flex;
         justify-content: center;
         align-items: center;
-        opacity: 0;
+        /* opacity: 0; */
         /* Initially hidden */
-        transform: scale(0.5);
+        /* transform: scale(0.5); */
         /* Start smaller */
-        animation: appear 0.5s ease-out forwards;
+        /* animation: appear 0.5s ease-out forwards; */
         /* Apply animation */
-        animation-delay: 0.5s;
+        /* animation-delay: 0.5s; */
         /* Delay before starting the animation */
     }
     .img-parent {
@@ -950,13 +950,13 @@ ul li {
         display: flex;
         justify-content: center;
         align-items: center;
-        opacity: 0;
+        /* opacity: 0; */
         /* Initially hidden */
-        transform: scale(0.5);
+        /* transform: scale(0.5); */
         /* Start smaller */
-        animation: appear 0.5s ease-out forwards;
+        /* animation: appear 0.5s ease-out forwards; */
         /* Apply animation */
-        animation-delay: 0.5s;
+        /* animation-delay: 0.5s; */
         /* Delay before starting the animation */
     }
     .img-parent {
@@ -1165,13 +1165,13 @@ ul li {
         display: flex;
         justify-content: center;
         align-items: center;
-        opacity: 0;
+        /* opacity: 0; */
         /* Initially hidden */
-        transform: scale(0.5);
+        /* transform: scale(0.5); */
         /* Start smaller */
-        animation: appear 0.5s ease-out forwards;
+        /* animation: appear 0.5s ease-out forwards; */
         /* Apply animation */
-        animation-delay: 0.5s;
+        /* animation-delay: 0.5s; */
         /* Delay before starting the animation */
     }
     .img-parent {
