@@ -4,9 +4,9 @@ function Proinfo() {
     return (
         <>
             <div className="proinfo1">
-                <div className="proinfo2">
+                {/* <div className="proinfo2">
                     <h1 className='proh1'>Highlighted Projects</h1>
-                </div>
+                </div> */}
                 <h1 className='proh2'>MedAsk</h1>
                 <ul>
                     <li>Developed a static website for MedAsk, providing detailed health information.</li>
