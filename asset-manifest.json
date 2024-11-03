@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/Ibrahimbrohi.io/static/css/main.e0a3df1c.css",
-    "main.js": "/Ibrahimbrohi.io/static/js/main.cb2c5adc.js",
+    "main.css": "/Ibrahimbrohi.io/static/css/main.d68e1e83.css",
+    "main.js": "/Ibrahimbrohi.io/static/js/main.6a81d3b6.js",
     "static/js/453.1b313fc3.chunk.js": "/Ibrahimbrohi.io/static/js/453.1b313fc3.chunk.js",
     "static/media/m2.png": "/Ibrahimbrohi.io/static/media/m2.ca7736adadd98f175746.png",
     "static/media/video2.mp4": "/Ibrahimbrohi.io/static/media/video2.13f7107b1efd8cc5bf21.mp4",
     "static/media/mapkarachi.png": "/Ibrahimbrohi.io/static/media/mapkarachi.7f848cb3171d1f071640.png",
+    "static/media/923shots_so.png": "/Ibrahimbrohi.io/static/media/923shots_so.3d47e26bdb1b9bdfcef7.png",
     "static/media/m3.jpg": "/Ibrahimbrohi.io/static/media/m3.79d1d2560e0366831094.jpg",
     "static/media/m1.jpg": "/Ibrahimbrohi.io/static/media/m1.75568ac4b6e4972f46cc.jpg",
     "static/media/download.webp": "/Ibrahimbrohi.io/static/media/download.3944c09ec3af567c2bab.webp",
     "index.html": "/Ibrahimbrohi.io/index.html",
-    "main.e0a3df1c.css.map": "/Ibrahimbrohi.io/static/css/main.e0a3df1c.css.map",
-    "main.cb2c5adc.js.map": "/Ibrahimbrohi.io/static/js/main.cb2c5adc.js.map",
+    "main.d68e1e83.css.map": "/Ibrahimbrohi.io/static/css/main.d68e1e83.css.map",
+    "main.6a81d3b6.js.map": "/Ibrahimbrohi.io/static/js/main.6a81d3b6.js.map",
     "453.1b313fc3.chunk.js.map": "/Ibrahimbrohi.io/static/js/453.1b313fc3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e0a3df1c.css",
-    "static/js/main.cb2c5adc.js"
+    "static/css/main.d68e1e83.css",
+    "static/js/main.6a81d3b6.js"
   ]
 }
