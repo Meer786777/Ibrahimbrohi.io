@@ -391,6 +391,70 @@ ul li {
     flex-direction: column;
 }
 
+.Text3 {
+    width: 49%;
+    height: 374px;
+    padding: 20px;
+    border-radius: 35px;
+    background: #FFF;
+}
+
+.div-text3 {
+    width: 100%;
+}
+
+.text3title {
+    color: #000;
+    font-family: "Anonymous Pro";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 5%;
+}
+
+.text3p1 {
+    color: #000;
+    font-family: "Anonymous Pro";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 5%;
+}
+
+.imgconv {
+    width: 49%;
+    height: 374px;
+    flex-shrink: 0;
+    border-radius: 35px;
+    object-fit: cover;
+    background: url('../../images/923shots_so.png') lightgray -2.075px -122.703px / 101.61% 165.283% no-repeat;
+    position: relative;
+}
+.img2div1{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 150px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 0px 35px 0px 25px;
+background: rgba(255, 255, 255, 0.39);
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.img2div1 p{
+    color: #FFF;
+font-family: "Anonymous Pro";
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-decoration: none;
+}
+
 /* Laptops/Desktops (1025px to 1440px) */
 @media (min-width: 1025px) and (max-width: 1440px) {
     .Text1 {
@@ -405,6 +469,7 @@ ul li {
         flex-direction: column;
         flex-grow: 3;
     }
+
     .tp1 {
         color: #000;
         font-family: "Anonymous Pro";
@@ -416,7 +481,7 @@ ul li {
         width: 90%;
         padding-left: 5%;
     }
-    
+
     .tp2 {
         color: #000;
         font-family: "Anonymous Pro";
@@ -441,21 +506,22 @@ ul li {
         justify-content: center;
         align-items: flex-end;
     }
+
     .videopar {
         width: 58%;
         height: 354px;
         position: relative;
         flex-shrink: 0;
     }
-    
+
     .vid1 {
         width: 100%;
         height: 354px;
         object-fit: cover;
         border-radius: 35px;
-    
+
     }
-    
+
     .proinfo1 {
         width: 39%;
         height: 354px;
@@ -463,6 +529,7 @@ ul li {
         border-radius: 35px;
         background: #FFF;
     }
+
     .proinfo2 {
         top: 0px;
         top: 0px;
@@ -476,7 +543,7 @@ ul li {
         justify-content: start;
         align-items: center;
     }
-    
+
     .proh1 {
         color: #000;
         font-family: "Microsoft Sans Serif";
@@ -486,7 +553,7 @@ ul li {
         line-height: 100.785%;
         margin-left: 20px;
     }
-    
+
     .proh2 {
         color: #000;
         font-family: "Microsoft Sans Serif";
@@ -497,11 +564,12 @@ ul li {
         margin-top: 50px;
         margin-left: 20px;
     }
+
     ul {
         width: 90%;
         margin-top: 5%;
     }
-    
+
     ul li {
         color: #000;
         font-family: "Anonymous Pro";
@@ -514,6 +582,7 @@ ul li {
         margin-top: 2%;
         margin-left: 30px;
     }
+
     .Text2 {
         width: 68%;
         height: 580px;
@@ -533,15 +602,18 @@ ul li {
         /* animation-delay: 0.5s; */
         /* Delay before starting the animation */
     }
+
     .img-parent {
         width: 29%;
         height: 580px;
         position: relative;
-    
+
     }
+
     .img-parent1 {
         height: 580px;
     }
+
     .whoisibrahim {
         color: #000;
         font-family: "Microsoft Sans Serif";
@@ -551,7 +623,7 @@ ul li {
         line-height: 100%;
         /* 24px */
     }
-    
+
     .tp3 {
         width: 90%;
         height: 130px;
@@ -563,7 +635,7 @@ ul li {
         font-weight: 400;
         line-height: 100.785%;
     }
-    
+
     .tp4 {
         width: 90%;
         height: 120px;
@@ -575,7 +647,7 @@ ul li {
         font-weight: 400;
         line-height: 100.785%;
     }
-    
+
     .tp5 {
         width: 90%;
         height: 120px;
@@ -586,6 +658,25 @@ ul li {
         font-style: normal;
         font-weight: 400;
         line-height: 100.785%;
+    }
+    .text3title {
+        color: #000;
+        font-family: "Anonymous Pro";
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-top: 5%;
+    }
+    
+    .text3p1 {
+        color: #000;
+        font-family: "Anonymous Pro";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-top: 5%;
     }
 }
 
@@ -603,6 +694,7 @@ ul li {
         flex-direction: column;
         flex-grow: 3;
     }
+
     .tp1 {
         color: #000;
         font-family: "Anonymous Pro";
@@ -614,7 +706,7 @@ ul li {
         width: 90%;
         padding-left: 5%;
     }
-    
+
     .tp2 {
         color: #000;
         font-family: "Anonymous Pro";
@@ -629,9 +721,10 @@ ul li {
     }
 
     /* map */
-    .m100{
+    .m100 {
         width: 100%;
     }
+
     .MapParent {
         width: 100%;
         height: 354px;
@@ -642,20 +735,22 @@ ul li {
         justify-content: center;
         align-items: flex-end;
     }
+
     .videopar {
         width: 100%;
         height: 354px;
         position: relative;
         flex-shrink: 0;
     }
-    
+
     .vid1 {
         width: 100%;
         height: 354px;
         object-fit: cover;
         border-radius: 20px;
-    
+
     }
+
     .secdiv {
         position: absolute;
         bottom: 0px;
@@ -669,6 +764,7 @@ ul li {
         justify-content: center;
         align-items: center;
     }
+
     .proinfo1 {
         width: 100%;
         height: 300px;
@@ -676,6 +772,7 @@ ul li {
         border-radius: 20px;
         background: #FFF;
     }
+
     .proinfo2 {
         top: 0px;
         top: 0px;
@@ -689,7 +786,7 @@ ul li {
         justify-content: start;
         align-items: center;
     }
-    
+
     .proh1 {
         color: #000;
         font-family: "Microsoft Sans Serif";
@@ -699,7 +796,7 @@ ul li {
         line-height: 100.785%;
         margin-left: 20px;
     }
-    
+
     .proh2 {
         color: #000;
         font-family: "Microsoft Sans Serif";
@@ -710,11 +807,12 @@ ul li {
         margin-top: 50px;
         margin-left: 20px;
     }
+
     ul {
         width: 90%;
         margin-top: 3%;
     }
-    
+
     ul li {
         color: #000;
         font-family: "Anonymous Pro";
@@ -727,6 +825,7 @@ ul li {
         margin-top: 2%;
         margin-left: 30px;
     }
+
     .Text2 {
         width: 68%;
         height: 500px;
@@ -746,16 +845,19 @@ ul li {
         /* animation-delay: 0.5s; */
         /* Delay before starting the animation */
     }
+
     .img-parent {
         width: 29%;
         height: 500px;
         position: relative;
-    
+
     }
+
     .img-parent1 {
         height: 500px;
         border-radius: 20px;
     }
+
     .whoisibrahim {
         color: #000;
         font-family: "Microsoft Sans Serif";
@@ -765,7 +867,7 @@ ul li {
         line-height: 100%;
         /* 24px */
     }
-    
+
     .tp3 {
         margin-top: 17%;
         width: 90%;
@@ -778,7 +880,7 @@ ul li {
         font-weight: 400;
         line-height: 100.785%;
     }
-    
+
     .tp4 {
         width: 90%;
         height: 120px;
@@ -790,7 +892,7 @@ ul li {
         font-weight: 400;
         line-height: 100.785%;
     }
-    
+
     .tp5 {
         width: 90%;
         height: 120px;
@@ -802,7 +904,16 @@ ul li {
         font-weight: 400;
         line-height: 100.785%;
     }
+    
+.imgconv {
+    width: 100%;
+
 }
+.Text3 {
+    width: 100%;
+}
+}
+
 /* Tablets (481px to 768px) */
 @media (min-width: 481px) and (max-width: 768px) {
     .Text1 {
@@ -817,6 +928,7 @@ ul li {
         flex-direction: column;
         flex-grow: 3;
     }
+
     .tp1 {
         color: #000;
         font-family: "Anonymous Pro";
@@ -828,7 +940,7 @@ ul li {
         width: 90%;
         padding-left: 5%;
     }
-    
+
     .tp2 {
         color: #000;
         font-family: "Anonymous Pro";
@@ -843,9 +955,10 @@ ul li {
     }
 
     /* map */
-    .m100{
+    .m100 {
         width: 100%;
     }
+
     .MapParent {
         width: 100%;
         height: 354px;
@@ -856,20 +969,22 @@ ul li {
         justify-content: center;
         align-items: flex-end;
     }
+
     .videopar {
         width: 100%;
         height: 354px;
         position: relative;
         flex-shrink: 0;
     }
-    
+
     .vid1 {
         width: 100%;
         height: 354px;
         object-fit: cover;
         border-radius: 20px;
-    
+
     }
+
     .secdiv {
         position: absolute;
         bottom: 0px;
@@ -883,6 +998,7 @@ ul li {
         justify-content: center;
         align-items: center;
     }
+
     .proinfo1 {
         width: 100%;
         height: 300px;
@@ -890,6 +1006,7 @@ ul li {
         border-radius: 20px;
         background: #FFF;
     }
+
     .proinfo2 {
         top: 0px;
         top: 0px;
@@ -903,7 +1020,7 @@ ul li {
         justify-content: start;
         align-items: center;
     }
-    
+
     .proh1 {
         color: #000;
         font-family: "Microsoft Sans Serif";
@@ -913,7 +1030,7 @@ ul li {
         line-height: 100.785%;
         margin-left: 20px;
     }
-    
+
     .proh2 {
         color: #000;
         font-family: "Microsoft Sans Serif";
@@ -924,11 +1041,12 @@ ul li {
         margin-top: 50px;
         margin-left: 20px;
     }
+
     ul {
         width: 90%;
         margin-top: 3%;
     }
-    
+
     ul li {
         color: #000;
         font-family: "Anonymous Pro";
@@ -941,6 +1059,7 @@ ul li {
         margin-top: 2%;
         margin-left: 30px;
     }
+
     .Text2 {
         width: 100%;
         height: 650px;
@@ -960,16 +1079,19 @@ ul li {
         /* animation-delay: 0.5s; */
         /* Delay before starting the animation */
     }
+
     .img-parent {
         width: 100%;
         height: 600px;
         position: relative;
-    
+
     }
+
     .img-parent1 {
         height: 600px;
         border-radius: 20px;
     }
+
     .whoisibrahim {
         color: #000;
         font-family: "Microsoft Sans Serif";
@@ -979,7 +1101,7 @@ ul li {
         line-height: 100%;
         /* 24px */
     }
-    
+
     .tp3 {
         margin-top: 15%;
         width: 90%;
@@ -992,7 +1114,7 @@ ul li {
         font-weight: 400;
         line-height: 100.785%;
     }
-    
+
     .tp4 {
         width: 90%;
         height: 150px;
@@ -1004,7 +1126,7 @@ ul li {
         font-weight: 400;
         line-height: 100.785%;
     }
-    
+
     .tp5 {
         width: 90%;
         height: 150px;
@@ -1015,6 +1137,13 @@ ul li {
         font-style: normal;
         font-weight: 400;
         line-height: 100.785%;
+    }
+    .imgconv {
+        width: 100%;
+    
+    }
+    .Text3 {
+        width: 100%;
     }
 }
 
@@ -1032,6 +1161,7 @@ ul li {
         flex-direction: column;
         flex-grow: 3;
     }
+
     .tp1 {
         color: #000;
         font-family: "Anonymous Pro";
@@ -1043,7 +1173,7 @@ ul li {
         width: 98%;
         padding-left: 5%;
     }
-    
+
     .tp2 {
         color: #000;
         font-family: "Anonymous Pro";
@@ -1058,9 +1188,10 @@ ul li {
     }
 
     /* map */
-    .m100{
+    .m100 {
         width: 100%;
     }
+
     .MapParent {
         width: 100%;
         height: 300px;
@@ -1071,20 +1202,22 @@ ul li {
         justify-content: center;
         align-items: flex-end;
     }
+
     .videopar {
         width: 100%;
         height: 354px;
         position: relative;
         flex-shrink: 0;
     }
-    
+
     .vid1 {
         width: 100%;
         height: 354px;
         object-fit: cover;
         border-radius: 20px;
-    
+
     }
+
     .secdiv {
         position: absolute;
         bottom: 0px;
@@ -1098,6 +1231,7 @@ ul li {
         justify-content: center;
         align-items: center;
     }
+
     .proinfo1 {
         width: 100%;
         height: 300px;
@@ -1105,6 +1239,7 @@ ul li {
         border-radius: 20px;
         background: #FFF;
     }
+
     .proinfo2 {
         top: 0px;
         top: 0px;
@@ -1118,7 +1253,7 @@ ul li {
         justify-content: start;
         align-items: center;
     }
-    
+
     .proh1 {
         color: #000;
         font-family: "Microsoft Sans Serif";
@@ -1128,7 +1263,7 @@ ul li {
         line-height: 100.785%;
         margin-left: 20px;
     }
-    
+
     .proh2 {
         color: #000;
         font-family: "Microsoft Sans Serif";
@@ -1139,11 +1274,12 @@ ul li {
         margin-top: 50px;
         margin-left: 20px;
     }
+
     ul {
         width: 90%;
         margin-top: 3%;
     }
-    
+
     ul li {
         color: #000;
         font-family: "Anonymous Pro";
@@ -1156,6 +1292,7 @@ ul li {
         margin-top: 2%;
         margin-left: 35px;
     }
+
     .Text2 {
         width: 100%;
         height: 600px;
@@ -1175,16 +1312,19 @@ ul li {
         /* animation-delay: 0.5s; */
         /* Delay before starting the animation */
     }
+
     .img-parent {
         width: 100%;
         height: 600px;
         position: relative;
-    
+
     }
+
     .img-parent1 {
         height: 600px;
         border-radius: 20px;
     }
+
     .whoisibrahim {
         color: #000;
         font-family: "Microsoft Sans Serif";
@@ -1194,7 +1334,7 @@ ul li {
         line-height: 100%;
         /* 24px */
     }
-    
+
     .tp3 {
         margin-top: 15%;
         width: 90%;
@@ -1207,7 +1347,7 @@ ul li {
         font-weight: 400;
         line-height: 100.785%;
     }
-    
+
     .tp4 {
         width: 90%;
         height: 150px;
@@ -1219,7 +1359,7 @@ ul li {
         font-weight: 400;
         line-height: 100.785%;
     }
-    
+
     .tp5 {
         width: 90%;
         height: 150px;
@@ -1231,6 +1371,7 @@ ul li {
         font-weight: 400;
         line-height: 100.785%;
     }
+
     .aboutme {
         position: absolute;
         z-index: 1;
@@ -1247,6 +1388,7 @@ ul li {
         justify-content: center;
         align-items: center;
     }
+
     .wh1 {
         color: #FFF;
         font-family: "Microsoft Sans Serif";
@@ -1256,7 +1398,7 @@ ul li {
         line-height: 100.785%;
         /* 24.188px */
     }
-    
+
     .wspan1 {
         color: #555;
         font-family: "Microsoft Sans Serif";
@@ -1266,16 +1408,18 @@ ul li {
         line-height: 100.785%;
         /* 12.094px */
     }
-    
+
     .mapdiv {
         display: flex;
         justify-content: center;
         align-items: center;
         gap: 10px;
     }
-    .Mapbottom{
+
+    .Mapbottom {
         width: 95%;
     }
+
     .wp1 {
         color: #FFF;
         font-family: "Microsoft Sans Serif";
@@ -1285,8 +1429,16 @@ ul li {
         line-height: 100.785%;
         /* 16.126px */
     }
-    .nn{
+
+    .nn {
 
         font-size: 5px;
+    }
+    .imgconv {
+        width: 100%;
+    
+    }
+    .Text3 {
+        width: 100%;
     }
 }
