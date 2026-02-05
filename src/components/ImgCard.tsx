@@ -1,13 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './css/body.css';
 import Img1 from '../images/m1.jpg';
-<<<<<<< HEAD
-import Img2 from '../images/m2.png';
-import Img3 from '../images/m3.jpg';
-
-function ImgCard() {
-    const images = [Img1, Img2, Img3]; // Array of images
-=======
 import Img2 from '../images/m2.jpg';
 import Img3 from '../images/m3.jpg';
 import Img4 from '../images/m4.jpg';
@@ -18,7 +11,6 @@ import Img8 from '../images/m8.jpg';
 
 function ImgCard() {
     const images = [Img1, Img2, Img3, Img4, Img5, Img6, Img7, Img8]; // Array of images
->>>>>>> 1ad5905 (Initial commit)
     const [currentIndex, setCurrentIndex] = useState(0); // Index of the current image
     const [isFading, setIsFading] = useState(false); // Control fade effect
 

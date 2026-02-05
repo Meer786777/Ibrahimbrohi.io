@@ -5,11 +5,7 @@
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-<<<<<<< HEAD
-
-=======
 @import url('https://fonts.googleapis.com/css2?family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Karantina:wght@300;400;700&display=swap');
->>>>>>> 1ad5905 (Initial commit)
 .MapParent {
     width: 400px;
     height: 374px;
@@ -107,11 +103,7 @@
 
 .tp1 {
     color: #000;
-<<<<<<< HEAD
-    font-family: "Anonymous Pro";
-=======
     font-family: "K2D";
->>>>>>> 1ad5905 (Initial commit)
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -122,11 +114,7 @@
 
 .tp2 {
     color: #000;
-<<<<<<< HEAD
-    font-family: "Anonymous Pro";
-=======
     font-family: "K2D";
->>>>>>> 1ad5905 (Initial commit)
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -206,11 +194,7 @@
 
 .proh2 {
     color: #000;
-<<<<<<< HEAD
-    font-family: "Anonymous Pro";
-=======
     font-family: "K2D";
->>>>>>> 1ad5905 (Initial commit)
     font-size: 28px;
     font-style: normal;
     font-weight: 400;
@@ -226,11 +210,7 @@ ul {
 
 ul li {
     color: #000;
-<<<<<<< HEAD
-    font-family: "Anonymous Pro";
-=======
     font-family: "K2D";
->>>>>>> 1ad5905 (Initial commit)
     font-size: 22px;
     font-style: normal;
     font-weight: 400;
@@ -372,11 +352,7 @@ ul li {
     height: 130px;
     flex-shrink: 0;
     color: #000;
-<<<<<<< HEAD
-    font-family: "Anonymous Pro";
-=======
     font-family: "K2D";
->>>>>>> 1ad5905 (Initial commit)
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -388,11 +364,7 @@ ul li {
     height: 100px;
     flex-shrink: 0;
     color: #000;
-<<<<<<< HEAD
-    font-family: "Anonymous Pro";
-=======
     font-family: "K2D";
->>>>>>> 1ad5905 (Initial commit)
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -404,11 +376,7 @@ ul li {
     height: 100px;
     flex-shrink: 0;
     color: #000;
-<<<<<<< HEAD
-    font-family: "Anonymous Pro";
-=======
     font-family: "K2D";
->>>>>>> 1ad5905 (Initial commit)
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -437,11 +405,7 @@ ul li {
 
 .text3title {
     color: #000;
-<<<<<<< HEAD
-    font-family: "Anonymous Pro";
-=======
     font-family: "K2D";
->>>>>>> 1ad5905 (Initial commit)
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
@@ -451,11 +415,7 @@ ul li {
 
 .text3p1 {
     color: #000;
-<<<<<<< HEAD
-    font-family: "Anonymous Pro";
-=======
     font-family: "K2D";
->>>>>>> 1ad5905 (Initial commit)
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -487,11 +447,7 @@ align-items: center;
 }
 .img2div1 p{
     color: #FFF;
-<<<<<<< HEAD
-font-family: "Anonymous Pro";
-=======
 font-family: "K2D";
->>>>>>> 1ad5905 (Initial commit)
 font-size: 16px;
 font-style: normal;
 font-weight: 700;
@@ -516,11 +472,7 @@ text-decoration: none;
 
     .tp1 {
         color: #000;
-<<<<<<< HEAD
-        font-family: "Anonymous Pro";
-=======
         font-family: "K2D";
->>>>>>> 1ad5905 (Initial commit)
         font-size: 18px;
         font-style: normal;
         font-weight: 400;
@@ -532,11 +484,7 @@ text-decoration: none;
 
     .tp2 {
         color: #000;
-<<<<<<< HEAD
-        font-family: "Anonymous Pro";
-=======
         font-family: "K2D";
->>>>>>> 1ad5905 (Initial commit)
         font-size: 18px;
         font-style: normal;
         font-weight: 400;
@@ -624,11 +572,7 @@ text-decoration: none;
 
     ul li {
         color: #000;
-<<<<<<< HEAD
-        font-family: "Anonymous Pro";
-=======
         font-family: "K2D";
->>>>>>> 1ad5905 (Initial commit)
         font-size: 19px;
         font-style: normal;
         font-weight: 400;
@@ -685,11 +629,7 @@ text-decoration: none;
         height: 130px;
         flex-shrink: 0;
         color: #000;
-<<<<<<< HEAD
-        font-family: "Anonymous Pro";
-=======
         font-family: "K2D";
->>>>>>> 1ad5905 (Initial commit)
         font-size: 19px;
         font-style: normal;
         font-weight: 400;
@@ -701,11 +641,7 @@ text-decoration: none;
         height: 120px;
         flex-shrink: 0;
         color: #000;
-<<<<<<< HEAD
-        font-family: "Anonymous Pro";
-=======
         font-family: "K2D";
->>>>>>> 1ad5905 (Initial commit)
         font-size: 19px;
         font-style: normal;
         font-weight: 400;
@@ -717,11 +653,7 @@ text-decoration: none;
         height: 120px;
         flex-shrink: 0;
         color: #000;
-<<<<<<< HEAD
-        font-family: "Anonymous Pro";
-=======
         font-family: "K2D";
->>>>>>> 1ad5905 (Initial commit)
         font-size: 19px;
         font-style: normal;
         font-weight: 400;
@@ -729,11 +661,7 @@ text-decoration: none;
     }
     .text3title {
         color: #000;
-<<<<<<< HEAD
-        font-family: "Anonymous Pro";
-=======
         font-family: "K2D";
->>>>>>> 1ad5905 (Initial commit)
         font-size: 22px;
         font-style: normal;
         font-weight: 700;
@@ -743,11 +671,7 @@ text-decoration: none;
     
     .text3p1 {
         color: #000;
-<<<<<<< HEAD
-        font-family: "Anonymous Pro";
-=======
         font-family: "K2D";
->>>>>>> 1ad5905 (Initial commit)
         font-size: 18px;
         font-style: normal;
         font-weight: 400;
@@ -773,11 +697,7 @@ text-decoration: none;
 
     .tp1 {
         color: #000;
-<<<<<<< HEAD
-        font-family: "Anonymous Pro";
-=======
         font-family: "K2D";
->>>>>>> 1ad5905 (Initial commit)
         font-size: 18px;
         font-style: normal;
         font-weight: 400;
@@ -789,11 +709,7 @@ text-decoration: none;
 
     .tp2 {
         color: #000;
-<<<<<<< HEAD
-        font-family: "Anonymous Pro";
-=======
         font-family: "K2D";
->>>>>>> 1ad5905 (Initial commit)
         font-size: 18px;
         font-style: normal;
         font-weight: 400;
@@ -899,11 +815,7 @@ text-decoration: none;
 
     ul li {
         color: #000;
-<<<<<<< HEAD
-        font-family: "Anonymous Pro";
-=======
         font-family: "K2D";
->>>>>>> 1ad5905 (Initial commit)
         font-size: 20px;
         font-style: normal;
         font-weight: 400;
@@ -962,11 +874,7 @@ text-decoration: none;
         height: 130px;
         flex-shrink: 0;
         color: #000;
-<<<<<<< HEAD
-        font-family: "Anonymous Pro";
-=======
         font-family: "K2D";
->>>>>>> 1ad5905 (Initial commit)
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
@@ -978,11 +886,7 @@ text-decoration: none;
         height: 120px;
         flex-shrink: 0;
         color: #000;
-<<<<<<< HEAD
-        font-family: "Anonymous Pro";
-=======
         font-family: "K2D";
->>>>>>> 1ad5905 (Initial commit)
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
@@ -994,11 +898,7 @@ text-decoration: none;
         height: 120px;
         flex-shrink: 0;
         color: #000;
-<<<<<<< HEAD
-        font-family: "Anonymous Pro";
-=======
         font-family: "K2D";
->>>>>>> 1ad5905 (Initial commit)
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
@@ -1031,11 +931,7 @@ text-decoration: none;
 
     .tp1 {
         color: #000;
-<<<<<<< HEAD
-        font-family: "Anonymous Pro";
-=======
         font-family: "K2D";
->>>>>>> 1ad5905 (Initial commit)
         font-size: 18px;
         font-style: normal;
         font-weight: 400;
@@ -1047,11 +943,7 @@ text-decoration: none;
 
     .tp2 {
         color: #000;
-<<<<<<< HEAD
-        font-family: "Anonymous Pro";
-=======
         font-family: "K2D";
->>>>>>> 1ad5905 (Initial commit)
         font-size: 18px;
         font-style: normal;
         font-weight: 400;
@@ -1157,11 +1049,7 @@ text-decoration: none;
 
     ul li {
         color: #000;
-<<<<<<< HEAD
-        font-family: "Anonymous Pro";
-=======
         font-family: "K2D";
->>>>>>> 1ad5905 (Initial commit)
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
@@ -1220,11 +1108,7 @@ text-decoration: none;
         height: 150px;
         flex-shrink: 0;
         color: #000;
-<<<<<<< HEAD
-        font-family: "Anonymous Pro";
-=======
         font-family: "K2D";
->>>>>>> 1ad5905 (Initial commit)
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
@@ -1236,11 +1120,7 @@ text-decoration: none;
         height: 150px;
         flex-shrink: 0;
         color: #000;
-<<<<<<< HEAD
-        font-family: "Anonymous Pro";
-=======
         font-family: "K2D";
->>>>>>> 1ad5905 (Initial commit)
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
@@ -1252,11 +1132,7 @@ text-decoration: none;
         height: 150px;
         flex-shrink: 0;
         color: #000;
-<<<<<<< HEAD
-        font-family: "Anonymous Pro";
-=======
         font-family: "K2D";
->>>>>>> 1ad5905 (Initial commit)
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
@@ -1288,13 +1164,8 @@ text-decoration: none;
 
     .tp1 {
         color: #000;
-<<<<<<< HEAD
-        font-family: "Anonymous Pro";
-        font-size: 12px;
-=======
         font-family: "K2D";
         font-size: 14px;
->>>>>>> 1ad5905 (Initial commit)
         font-style: normal;
         font-weight: 400;
         line-height: normal;
@@ -1305,13 +1176,8 @@ text-decoration: none;
 
     .tp2 {
         color: #000;
-<<<<<<< HEAD
-        font-family: "Anonymous Pro";
-        font-size: 12px;
-=======
         font-family: "K2D";
         font-size: 14px;
->>>>>>> 1ad5905 (Initial commit)
         font-style: normal;
         font-weight: 400;
         line-height: normal;
@@ -1368,11 +1234,7 @@ text-decoration: none;
 
     .proinfo1 {
         width: 100%;
-<<<<<<< HEAD
-        height: 300px;
-=======
         height: 250px;
->>>>>>> 1ad5905 (Initial commit)
         flex-shrink: 0;
         border-radius: 20px;
         background: #FFF;
@@ -1420,20 +1282,11 @@ text-decoration: none;
 
     ul li {
         color: #000;
-<<<<<<< HEAD
-        font-family: "Anonymous Pro";
-        font-size: 12px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 100.785%;
-        /* 16.126px */
-=======
         font-family: "K2D";
         font-size: 14px;
         font-style: normal;
         font-weight: 400;
         line-height: 100.785%;
->>>>>>> 1ad5905 (Initial commit)
         width: 95%;
         margin-top: 2%;
         margin-left: 35px;
@@ -1441,11 +1294,7 @@ text-decoration: none;
 
     .Text2 {
         width: 100%;
-<<<<<<< HEAD
-        height: 600px;
-=======
         height: 100%;
->>>>>>> 1ad5905 (Initial commit)
         flex-shrink: 0;
         border-radius: 20px;
         background: #FFF;
@@ -1453,17 +1302,6 @@ text-decoration: none;
         display: flex;
         justify-content: center;
         align-items: center;
-<<<<<<< HEAD
-        /* opacity: 0; */
-        /* Initially hidden */
-        /* transform: scale(0.5); */
-        /* Start smaller */
-        /* animation: appear 0.5s ease-out forwards; */
-        /* Apply animation */
-        /* animation-delay: 0.5s; */
-        /* Delay before starting the animation */
-=======
->>>>>>> 1ad5905 (Initial commit)
     }
 
     .img-parent {
@@ -1489,15 +1327,6 @@ text-decoration: none;
     }
 
     .tp3 {
-<<<<<<< HEAD
-        margin-top: 15%;
-        width: 90%;
-        height: 150px;
-        flex-shrink: 0;
-        color: #000;
-        font-family: "Anonymous Pro";
-        font-size: 12px;
-=======
         margin-top: 25%;
         width: 90%;
         height: 100%;
@@ -1505,7 +1334,6 @@ text-decoration: none;
         color: #000;
         font-family: "K2D";
         font-size: 14px;
->>>>>>> 1ad5905 (Initial commit)
         font-style: normal;
         font-weight: 400;
         line-height: 100.785%;
@@ -1513,20 +1341,12 @@ text-decoration: none;
 
     .tp4 {
         width: 90%;
-<<<<<<< HEAD
-        height: 150px;
-        flex-shrink: 0;
-        color: #000;
-        font-family: "Anonymous Pro";
-        font-size: 12px;
-=======
    height: 100%;
    padding: 20px 0;
         flex-shrink: 0;
         color: #000;
         font-family: "K2D";
         font-size: 14px;
->>>>>>> 1ad5905 (Initial commit)
         font-style: normal;
         font-weight: 400;
         line-height: 100.785%;
@@ -1537,13 +1357,8 @@ text-decoration: none;
         height: 150px;
         flex-shrink: 0;
         color: #000;
-<<<<<<< HEAD
-        font-family: "Anonymous Pro";
-        font-size: 12px;
-=======
         font-family: "K2D";
         font-size: 14px;
->>>>>>> 1ad5905 (Initial commit)
         font-style: normal;
         font-weight: 400;
         line-height: 100.785%;
@@ -1617,8 +1432,6 @@ text-decoration: none;
     }
     .Text3 {
         width: 100%;
-<<<<<<< HEAD
-=======
         height: 100%;
     }
     .text3p1{
@@ -1631,6 +1444,5 @@ text-decoration: none;
         font-style: normal;
         font-weight: 400;
         line-height: 100.785%;
->>>>>>> 1ad5905 (Initial commit)
     }
 }
