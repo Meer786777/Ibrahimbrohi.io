@@ -1,0 +1,1448 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Karantina:wght@300;400;700&display=swap');
+.MapParent {
+    width: 400px;
+    height: 374px;
+    flex-shrink: 0;
+    border-radius: 35px;
+    background: url('../../images/mapkarachi.png') lightgray 50% / cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.Mapbottom {
+    width: 80%;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    background: rgba(255, 255, 255, 0.61);
+    backdrop-filter: blur(3.950000047683716px);
+    margin-bottom: 2%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-items: center;
+}
+
+.grid-parent {
+    margin-top: 20px;
+    max-width: 1600px;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-bottom: 100px;
+}
+
+.weather {
+    width: 43px;
+    height: 43px;
+    flex-shrink: 0;
+    border-radius: 25px;
+}
+
+.wh1 {
+    color: #FFF;
+    font-family: "Microsoft Sans Serif";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100.785%;
+    /* 24.188px */
+}
+
+.wspan1 {
+    color: #555;
+    font-family: "Microsoft Sans Serif";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100.785%;
+    /* 12.094px */
+}
+
+.mapdiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.wp1 {
+    color: #FFF;
+    font-family: "Microsoft Sans Serif";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100.785%;
+    /* 16.126px */
+}
+
+.Text1 {
+    width: 69%;
+    height: 374px;
+    flex-shrink: 0;
+    border-radius: 35px;
+    background: #FFF;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    flex-grow: 3;
+}
+
+.tp1 {
+    color: #000;
+    font-family: "K2D";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    max-width: 650px;
+    width: 100%;
+}
+
+.tp2 {
+    color: #000;
+    font-family: "K2D";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    max-width: 650px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.videopar {
+    width: 49%;
+    height: 380px;
+    position: relative;
+    flex-shrink: 0;
+}
+
+.vid1 {
+    width: 100%;
+    height: 380px;
+    object-fit: cover;
+    border-radius: 35px;
+
+}
+
+.secdiv {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 130px;
+    height: 54px;
+    flex-shrink: 0;
+    border-radius: 20px 0px 35px 0px;
+    background: rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.volumebtn {
+    width: 39px;
+    height: 35px;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+
+.proinfo1 {
+    width: 49%;
+    height: 380px;
+    flex-shrink: 0;
+    border-radius: 35px;
+    background: #FFF;
+}
+
+.proinfo2 {
+    top: 0px;
+    top: 0px;
+    width: 100%;
+    height: 68px;
+    flex-shrink: 0;
+    border-radius: 35px 35px 0px 0px;
+    border-bottom: 3px solid #BEBEBE;
+    background: #F7D035;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.proh1 {
+    color: #000;
+    font-family: "Microsoft Sans Serif";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100.785%;
+    margin-left: 20px;
+}
+
+.proh2 {
+    color: #000;
+    font-family: "K2D";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100.785%;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-top: 60px;
+}
+
+ul {
+    width: 100%;
+}
+
+ul li {
+    color: #000;
+    font-family: "K2D";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100.785%;
+    /* 16.126px */
+    width: 90%;
+    margin-top: 2%;
+    margin-left: 50px;
+}
+
+.img-parent {
+    width: 29%;
+    height: 625px;
+    position: relative;
+
+}
+
+.img-parent1 {
+    width: 100%;
+    height: 625px;
+    object-fit: cover;
+    border-radius: 35px;
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
+    /* Consistent transition with the image */
+}
+
+.box-parent {
+    width: 96px;
+    height: 17px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    background: rgba(255, 255, 255, 0.40);
+    backdrop-filter: blur(11.800000190734863px);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    z-index: 1;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
+    /* Consistent transition with the image */
+}
+
+.box {
+    width: 8.478px;
+    height: 8.057px;
+    flex-shrink: 0;
+    background-color: #FFF;
+    border-radius: 100%;
+    transition: box-shadow 0.3s ease;
+    /* Smooth transition for hover effect */
+    cursor: pointer;
+}
+
+.box.active {
+    background-color: #333;
+    /* Active box color */
+}
+
+.img-parent1.fade {
+    opacity: 0;
+    /* Fading out effect */
+}
+
+.box-parent.fade {
+    opacity: 0;
+    /* Fading out effect */
+}
+
+.Text2 {
+    width: 69%;
+    height: 625px;
+    flex-shrink: 0;
+    border-radius: 35px;
+    background: #FFF;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* opacity: 0; */
+    /* Initially hidden */
+    /* transform: scale(0.5); */
+    /* Start smaller */
+    /* animation: appear 0.5s ease-out forwards; */
+    /* Apply animation */
+    /* animation-delay: 0.5s; */
+    /* Delay before starting the animation */
+}
+
+@keyframes appear {
+    from {
+        opacity: 0;
+        transform: scale(0.5);
+        /* Start smaller */
+    }
+
+    to {
+        opacity: 1;
+        /* Fade in */
+        transform: scale(1);
+        /* Scale to original size */
+    }
+}
+
+
+.aboutme {
+    position: absolute;
+    z-index: 1;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 250px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    background: #F3F2F2;
+    backdrop-filter: blur(1px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.whoisibrahim {
+    color: #000;
+    font-family: "Microsoft Sans Serif";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    /* 24px */
+}
+
+.tp3 {
+    width: 90%;
+    height: 130px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: "K2D";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100.785%;
+}
+
+.tp4 {
+    width: 90%;
+    height: 100px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: "K2D";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100.785%;
+}
+
+.tp5 {
+    width: 90%;
+    height: 100px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: "K2D";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100.785%;
+}
+
+.tp-box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Text3 {
+    width: 49%;
+    height: 374px;
+    padding: 20px;
+    border-radius: 35px;
+    background: #FFF;
+}
+
+.div-text3 {
+    width: 100%;
+}
+
+.text3title {
+    color: #000;
+    font-family: "K2D";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 5%;
+}
+
+.text3p1 {
+    color: #000;
+    font-family: "K2D";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 5%;
+}
+
+.imgconv {
+    width: 49%;
+    height: 374px;
+    flex-shrink: 0;
+    border-radius: 35px;
+    object-fit: cover;
+    background: url('../../images/923shots_so.png') lightgray -2.075px -122.703px / 101.61% 165.283% no-repeat;
+    position: relative;
+}
+.img2div1{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 150px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 0px 35px 0px 25px;
+background: rgba(255, 255, 255, 0.39);
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.img2div1 p{
+    color: #FFF;
+font-family: "K2D";
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-decoration: none;
+}
+
+/* Laptops/Desktops (1025px to 1440px) */
+@media (min-width: 1025px) and (max-width: 1440px) {
+    .Text1 {
+        width: 50%;
+        height: 354px;
+        flex-shrink: 0;
+        border-radius: 35px;
+        background: #FFF;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        flex-grow: 3;
+    }
+
+    .tp1 {
+        color: #000;
+        font-family: "K2D";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        max-width: 650px;
+        width: 90%;
+        padding-left: 5%;
+    }
+
+    .tp2 {
+        color: #000;
+        font-family: "K2D";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        max-width: 650px;
+        width: 90%;
+        margin-top: 30px;
+        padding-left: 5%;
+    }
+
+    /* map */
+    .MapParent {
+        width: 380px;
+        height: 354px;
+        flex-shrink: 0;
+        border-radius: 35px;
+        background: url('../../images/mapkarachi.png') lightgray 50% / cover no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    .videopar {
+        width: 58%;
+        height: 354px;
+        position: relative;
+        flex-shrink: 0;
+    }
+
+    .vid1 {
+        width: 100%;
+        height: 354px;
+        object-fit: cover;
+        border-radius: 35px;
+
+    }
+
+    .proinfo1 {
+        width: 39%;
+        height: 354px;
+        flex-shrink: 0;
+        border-radius: 35px;
+        background: #FFF;
+    }
+
+    .proinfo2 {
+        top: 0px;
+        top: 0px;
+        width: 100%;
+        height: 68px;
+        flex-shrink: 0;
+        border-radius: 35px 35px 0px 0px;
+        border-bottom: 3px solid #BEBEBE;
+        background: #F7D035;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+
+    .proh1 {
+        color: #000;
+        font-family: "Microsoft Sans Serif";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 100.785%;
+        margin-left: 20px;
+    }
+
+    .proh2 {
+        color: #000;
+        font-family: "Microsoft Sans Serif";
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 100.785%;
+        margin-top: 50px;
+        margin-left: 20px;
+    }
+
+    ul {
+        width: 90%;
+        margin-top: 5%;
+    }
+
+    ul li {
+        color: #000;
+        font-family: "K2D";
+        font-size: 19px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 100.785%;
+        /* 16.126px */
+        width: 99%;
+        margin-top: 2%;
+        margin-left: 30px;
+    }
+
+    .Text2 {
+        width: 68%;
+        height: 580px;
+        flex-shrink: 0;
+        border-radius: 35px;
+        background: #FFF;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* opacity: 0; */
+        /* Initially hidden */
+        /* transform: scale(0.5); */
+        /* Start smaller */
+        /* animation: appear 0.5s ease-out forwards; */
+        /* Apply animation */
+        /* animation-delay: 0.5s; */
+        /* Delay before starting the animation */
+    }
+
+    .img-parent {
+        width: 29%;
+        height: 580px;
+        position: relative;
+
+    }
+
+    .img-parent1 {
+        height: 580px;
+    }
+
+    .whoisibrahim {
+        color: #000;
+        font-family: "Microsoft Sans Serif";
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 100%;
+        /* 24px */
+    }
+
+    .tp3 {
+        width: 90%;
+        height: 130px;
+        flex-shrink: 0;
+        color: #000;
+        font-family: "K2D";
+        font-size: 19px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 100.785%;
+    }
+
+    .tp4 {
+        width: 90%;
+        height: 120px;
+        flex-shrink: 0;
+        color: #000;
+        font-family: "K2D";
+        font-size: 19px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 100.785%;
+    }
+
+    .tp5 {
+        width: 90%;
+        height: 120px;
+        flex-shrink: 0;
+        color: #000;
+        font-family: "K2D";
+        font-size: 19px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 100.785%;
+    }
+    .text3title {
+        color: #000;
+        font-family: "K2D";
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-top: 5%;
+    }
+    
+    .text3p1 {
+        color: #000;
+        font-family: "K2D";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-top: 5%;
+    }
+}
+
+/* Small Laptops (769px to 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .Text1 {
+        width: 100%;
+        height: 354px;
+        flex-shrink: 0;
+        border-radius: 20px;
+        background: #FFF;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        flex-grow: 3;
+    }
+
+    .tp1 {
+        color: #000;
+        font-family: "K2D";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        max-width: 650px;
+        width: 90%;
+        padding-left: 5%;
+    }
+
+    .tp2 {
+        color: #000;
+        font-family: "K2D";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        max-width: 650px;
+        width: 90%;
+        margin-top: 30px;
+        padding-left: 5%;
+    }
+
+    /* map */
+    .m100 {
+        width: 100%;
+    }
+
+    .MapParent {
+        width: 100%;
+        height: 354px;
+        flex-shrink: 0;
+        border-radius: 20px;
+        background: url('../../images/mapkarachi.png') lightgray 50% / cover no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    .videopar {
+        width: 100%;
+        height: 354px;
+        position: relative;
+        flex-shrink: 0;
+    }
+
+    .vid1 {
+        width: 100%;
+        height: 354px;
+        object-fit: cover;
+        border-radius: 20px;
+
+    }
+
+    .secdiv {
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+        width: 130px;
+        height: 54px;
+        flex-shrink: 0;
+        border-radius: 10px 0px 20px 0px;
+        background: rgba(0, 0, 0, 0.25);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .proinfo1 {
+        width: 100%;
+        height: 300px;
+        flex-shrink: 0;
+        border-radius: 20px;
+        background: #FFF;
+    }
+
+    .proinfo2 {
+        top: 0px;
+        top: 0px;
+        width: 100%;
+        height: 60px;
+        flex-shrink: 0;
+        border-radius: 20px 20px 0px 0px;
+        border-bottom: 3px solid #BEBEBE;
+        background: #F7D035;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+
+    .proh1 {
+        color: #000;
+        font-family: "Microsoft Sans Serif";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 100.785%;
+        margin-left: 20px;
+    }
+
+    .proh2 {
+        color: #000;
+        font-family: "Microsoft Sans Serif";
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 100.785%;
+        margin-top: 50px;
+        margin-left: 20px;
+    }
+
+    ul {
+        width: 90%;
+        margin-top: 3%;
+    }
+
+    ul li {
+        color: #000;
+        font-family: "K2D";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 100.785%;
+        /* 16.126px */
+        width: 99%;
+        margin-top: 2%;
+        margin-left: 30px;
+    }
+
+    .Text2 {
+        width: 68%;
+        height: 500px;
+        flex-shrink: 0;
+        border-radius: 20px;
+        background: #FFF;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* opacity: 0; */
+        /* Initially hidden */
+        /* transform: scale(0.5); */
+        /* Start smaller */
+        /* animation: appear 0.5s ease-out forwards; */
+        /* Apply animation */
+        /* animation-delay: 0.5s; */
+        /* Delay before starting the animation */
+    }
+
+    .img-parent {
+        width: 29%;
+        height: 500px;
+        position: relative;
+
+    }
+
+    .img-parent1 {
+        height: 500px;
+        border-radius: 20px;
+    }
+
+    .whoisibrahim {
+        color: #000;
+        font-family: "Microsoft Sans Serif";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 100%;
+        /* 24px */
+    }
+
+    .tp3 {
+        margin-top: 17%;
+        width: 90%;
+        height: 130px;
+        flex-shrink: 0;
+        color: #000;
+        font-family: "K2D";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 100.785%;
+    }
+
+    .tp4 {
+        width: 90%;
+        height: 120px;
+        flex-shrink: 0;
+        color: #000;
+        font-family: "K2D";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 100.785%;
+    }
+
+    .tp5 {
+        width: 90%;
+        height: 120px;
+        flex-shrink: 0;
+        color: #000;
+        font-family: "K2D";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 100.785%;
+    }
+    
+.imgconv {
+    width: 100%;
+
+}
+.Text3 {
+    width: 100%;
+}
+}
+
+/* Tablets (481px to 768px) */
+@media (min-width: 481px) and (max-width: 768px) {
+    .Text1 {
+        width: 100%;
+        height: 354px;
+        flex-shrink: 0;
+        border-radius: 20px;
+        background: #FFF;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        flex-grow: 3;
+    }
+
+    .tp1 {
+        color: #000;
+        font-family: "K2D";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        max-width: 650px;
+        width: 90%;
+        padding-left: 5%;
+    }
+
+    .tp2 {
+        color: #000;
+        font-family: "K2D";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        max-width: 650px;
+        width: 90%;
+        margin-top: 30px;
+        padding-left: 5%;
+    }
+
+    /* map */
+    .m100 {
+        width: 100%;
+    }
+
+    .MapParent {
+        width: 100%;
+        height: 354px;
+        flex-shrink: 0;
+        border-radius: 20px;
+        background: url('../../images/mapkarachi.png') lightgray 50% / cover no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    .videopar {
+        width: 100%;
+        height: 354px;
+        position: relative;
+        flex-shrink: 0;
+    }
+
+    .vid1 {
+        width: 100%;
+        height: 354px;
+        object-fit: cover;
+        border-radius: 20px;
+
+    }
+
+    .secdiv {
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+        width: 130px;
+        height: 54px;
+        flex-shrink: 0;
+        border-radius: 10px 0px 20px 0px;
+        background: rgba(0, 0, 0, 0.25);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .proinfo1 {
+        width: 100%;
+        height: 300px;
+        flex-shrink: 0;
+        border-radius: 20px;
+        background: #FFF;
+    }
+
+    .proinfo2 {
+        top: 0px;
+        top: 0px;
+        width: 100%;
+        height: 60px;
+        flex-shrink: 0;
+        border-radius: 20px 20px 0px 0px;
+        border-bottom: 3px solid #BEBEBE;
+        background: #F7D035;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+
+    .proh1 {
+        color: #000;
+        font-family: "Microsoft Sans Serif";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 100.785%;
+        margin-left: 20px;
+    }
+
+    .proh2 {
+        color: #000;
+        font-family: "Microsoft Sans Serif";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 100.785%;
+        margin-top: 50px;
+        margin-left: 20px;
+    }
+
+    ul {
+        width: 90%;
+        margin-top: 3%;
+    }
+
+    ul li {
+        color: #000;
+        font-family: "K2D";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 100.785%;
+        /* 16.126px */
+        width: 99%;
+        margin-top: 2%;
+        margin-left: 30px;
+    }
+
+    .Text2 {
+        width: 100%;
+        height: 650px;
+        flex-shrink: 0;
+        border-radius: 20px;
+        background: #FFF;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* opacity: 0; */
+        /* Initially hidden */
+        /* transform: scale(0.5); */
+        /* Start smaller */
+        /* animation: appear 0.5s ease-out forwards; */
+        /* Apply animation */
+        /* animation-delay: 0.5s; */
+        /* Delay before starting the animation */
+    }
+
+    .img-parent {
+        width: 100%;
+        height: 600px;
+        position: relative;
+
+    }
+
+    .img-parent1 {
+        height: 600px;
+        border-radius: 20px;
+    }
+
+    .whoisibrahim {
+        color: #000;
+        font-family: "Microsoft Sans Serif";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 100%;
+        /* 24px */
+    }
+
+    .tp3 {
+        margin-top: 15%;
+        width: 90%;
+        height: 150px;
+        flex-shrink: 0;
+        color: #000;
+        font-family: "K2D";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 100.785%;
+    }
+
+    .tp4 {
+        width: 90%;
+        height: 150px;
+        flex-shrink: 0;
+        color: #000;
+        font-family: "K2D";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 100.785%;
+    }
+
+    .tp5 {
+        width: 90%;
+        height: 150px;
+        flex-shrink: 0;
+        color: #000;
+        font-family: "K2D";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 100.785%;
+    }
+    .imgconv {
+        width: 100%;
+    
+    }
+    .Text3 {
+        width: 100%;
+    }
+}
+
+/* Mobile Devices (up to 480px) */
+@media (max-width: 480px) {
+    .Text1 {
+        width: 100%;
+        height: 300px;
+        flex-shrink: 0;
+        border-radius: 20px;
+        background: #FFF;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        flex-grow: 3;
+    }
+
+    .tp1 {
+        color: #000;
+        font-family: "K2D";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        max-width: 650px;
+        width: 98%;
+        padding-left: 5%;
+    }
+
+    .tp2 {
+        color: #000;
+        font-family: "K2D";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        max-width: 650px;
+        width: 98%;
+        margin-top: 30px;
+        padding-left: 5%;
+    }
+
+    /* map */
+    .m100 {
+        width: 100%;
+    }
+
+    .MapParent {
+        width: 100%;
+        height: 300px;
+        flex-shrink: 0;
+        border-radius: 20px;
+        background: url('../../images/mapkarachi.png') lightgray 50% / cover no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    .videopar {
+        width: 100%;
+        height: 354px;
+        position: relative;
+        flex-shrink: 0;
+    }
+
+    .vid1 {
+        width: 100%;
+        height: 354px;
+        object-fit: cover;
+        border-radius: 20px;
+
+    }
+
+    .secdiv {
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+        width: 130px;
+        height: 54px;
+        flex-shrink: 0;
+        border-radius: 10px 0px 20px 0px;
+        background: rgba(0, 0, 0, 0.25);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .proinfo1 {
+        width: 100%;
+        height: 250px;
+        flex-shrink: 0;
+        border-radius: 20px;
+        background: #FFF;
+    }
+
+    .proinfo2 {
+        top: 0px;
+        top: 0px;
+        width: 100%;
+        height: 60px;
+        flex-shrink: 0;
+        border-radius: 20px 20px 0px 0px;
+        border-bottom: 3px solid #BEBEBE;
+        background: #F7D035;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+
+    .proh1 {
+        color: #000;
+        font-family: "Microsoft Sans Serif";
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 100.785%;
+        margin-left: 20px;
+    }
+
+    .proh2 {
+        color: #000;
+        font-family: "Microsoft Sans Serif";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 100.785%;
+        margin-top: 50px;
+        margin-left: 20px;
+    }
+
+    ul {
+        width: 90%;
+        margin-top: 3%;
+    }
+
+    ul li {
+        color: #000;
+        font-family: "K2D";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 100.785%;
+        width: 95%;
+        margin-top: 2%;
+        margin-left: 35px;
+    }
+
+    .Text2 {
+        width: 100%;
+        height: 100%;
+        flex-shrink: 0;
+        border-radius: 20px;
+        background: #FFF;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img-parent {
+        width: 100%;
+        height: 600px;
+        position: relative;
+
+    }
+
+    .img-parent1 {
+        height: 600px;
+        border-radius: 20px;
+    }
+
+    .whoisibrahim {
+        color: #000;
+        font-family: "Microsoft Sans Serif";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 100%;
+        /* 24px */
+    }
+
+    .tp3 {
+        margin-top: 25%;
+        width: 90%;
+        height: 100%;
+        flex-shrink: 0;
+        color: #000;
+        font-family: "K2D";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 100.785%;
+    }
+
+    .tp4 {
+        width: 90%;
+   height: 100%;
+   padding: 20px 0;
+        flex-shrink: 0;
+        color: #000;
+        font-family: "K2D";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 100.785%;
+    }
+
+    .tp5 {
+        width: 90%;
+        height: 150px;
+        flex-shrink: 0;
+        color: #000;
+        font-family: "K2D";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 100.785%;
+    }
+
+    .aboutme {
+        position: absolute;
+        z-index: 1;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 180px;
+        height: 50px;
+        flex-shrink: 0;
+        border-radius: 100px;
+        background: #F3F2F2;
+        backdrop-filter: blur(1px);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .wh1 {
+        color: #FFF;
+        font-family: "Microsoft Sans Serif";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 100.785%;
+        /* 24.188px */
+    }
+
+    .wspan1 {
+        color: #555;
+        font-family: "Microsoft Sans Serif";
+        font-size: 8px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 100.785%;
+        /* 12.094px */
+    }
+
+    .mapdiv {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .Mapbottom {
+        width: 95%;
+    }
+
+    .wp1 {
+        color: #FFF;
+        font-family: "Microsoft Sans Serif";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 100.785%;
+        /* 16.126px */
+    }
+
+    .nn {
+
+        font-size: 5px;
+    }
+    .imgconv {
+        width: 100%;
+    
+    }
+    .Text3 {
+        width: 100%;
+        height: 100%;
+    }
+    .text3p1{
+             width: 100%;
+   height: 100%;
+        flex-shrink: 0;
+        color: #000;
+        font-family: "K2D";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 100.785%;
+    }
+}

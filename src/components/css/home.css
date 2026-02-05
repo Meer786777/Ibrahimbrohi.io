@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Londrina+Sketch&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=LXGW+WenKai+TC&family=Londrina+Sketch&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap');
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+.main {
+  max-width: 1600px;
+  width: 100%;
+  height: 700px;
+  flex-shrink: 0;
+  border-radius: 35px;
+  background: linear-gradient(180deg, rgba(77, 36, 79, 0.00) 24.5%, #325DEC 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: -19px;
+}
+
+.main::before {
+  content: '';
+  position: absolute;
+  top: -9px;
+  /* Match the border width */
+  left: -9px;
+  /* Match the border width */
+  right: -9px;
+  /* Match the border width */
+  bottom: -9px;
+  /* Match the border width */
+  border-radius: 10px;
+  /* Optional: round corners */
+  background: linear-gradient(180deg, rgba(77, 36, 79, 0.00) 30%, #67676785 100%);
+  z-index: -1;
+  /* Place behind the content */
+  border-radius: 35px;
+}
+
+.name {
+  width: 100%;
+  color: #FFF;
+  text-align: center;
+  font-family: "ADLaM Display";
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100.785%;
+  /* 96.754px */
+  position: relative;
+  transition: opacity 3s ease;
+  /* Smooth transition for text */
+  cursor: pointer;
+}
+
+.homeimgv {
+  transition: opacity 3s ease;
+  /* Smooth transition for text */
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: -50px;
+  animation: rotate 5s linear infinite;
+  /* Apply rotate animation */
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+    /* Start at 0 degrees */
+  }
+
+  10% {
+    transform: rotate(20deg);
+    /* Start at 0 degrees */
+  }
+
+  20% {
+    transform: rotate(0deg);
+    /* Start at 0 degrees */
+  }
+
+  30% {
+    transform: rotate(-35deg);
+    /* Start at 0 degrees */
+  }
+
+  40% {
+    transform: rotate(0deg);
+    /* Start at 0 degrees */
+  }
+
+  50% {
+    transform: rotate(20deg);
+    /* Start at 0 degrees */
+  }
+
+  60% {
+    transform: rotate(0deg);
+    /* Start at 0 degrees */
+  }
+
+  70% {
+    transform: rotate(-35deg);
+    /* Start at 0 degrees */
+  }
+
+  80% {
+    transform: rotate(20deg);
+    /* Start at 0 degrees */
+  }
+
+  90% {
+    transform: rotate(-35deg);
+    /* Start at 0 degrees */
+  }
+
+  100% {
+    transform: rotate(0deg);
+    /* Start at 0 degrees */
+  }
+}
+
+
+/* Small Laptops (769px to 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .main {
+    max-width: 1600px;
+    width: 100%;
+    height: 500px;
+    flex-shrink: 0;
+    border-radius: 35px;
+    background: linear-gradient(180deg, rgba(77, 36, 79, 0.00) 24.5%, #325DEC 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: -19px;
+  }
+  .homeimgv {
+    transition: opacity 3s ease;
+    /* Smooth transition for text */
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: -50px;
+    animation: rotate 5s linear infinite;
+    /* Apply rotate animation */
+  }
+  .name {
+    width: 100%;
+    color: #FFF;
+    text-align: center;
+    font-family: "ADLaM Display";
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100.785%;
+    /* 96.754px */
+    position: relative;
+    transition: opacity 3s ease;
+    /* Smooth transition for text */
+    cursor: pointer;
+  }
+}
+
+/* Mobile Devices (up to 480px) */
+@media (max-width: 768px) {
+  .main {
+    max-width: 1600px;
+    width: 100%;
+    height: 500px;
+    flex-shrink: 0;
+    border-radius: 35px;
+    background: linear-gradient(180deg, rgba(77, 36, 79, 0.00) 24.5%, #325DEC 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: -19px;
+  }
+.name {
+  width: 100%;
+  color: #FFF;
+  text-align: center;
+  font-family: "ADLaM Display";
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100.785%;
+  /* 96.754px */
+  position: relative;
+  transition: opacity 3s ease;
+  /* Smooth transition for text */
+  cursor: pointer;
+}
+.homeimgv {
+  transition: opacity 3s ease;
+  /* Smooth transition for text */
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: -10px;
+  animation: rotate 5s linear infinite;
+  /* Apply rotate animation */
+}
+}
+/* fake commment to push */
